@@ -51,7 +51,7 @@ header img{
     width: 20%;
     height: 40%;
 }
-nav{ 
+#nav_principal{ 
     color: rgb(196, 131, 87);
     margin-top: 5%;
     margin-left: 50%;
@@ -61,7 +61,7 @@ nav{
     width: 90%;
     font-size: 25px;
 }
-nav button, nav{
+#nav_principal button, #nav_principal, #nav_cel{
     font-family: "Fraunces", serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -70,10 +70,10 @@ nav button, nav{
       "SOFT" 0,
       "WONK" 0;
 }
-nav div{
+#nav_principal div{
     text-align: end;
 }
-header nav button{
+ #nav_principal button{
     color: white;
     border: none;
     background-color: transparent;
@@ -81,7 +81,7 @@ header nav button{
     transition: 0.5s ease all ;
     font-size: 25px;
 }
-header nav button:hover{
+ #nav_principal button:hover{
     transition: 0.5s ease all ;
     transform: rotate(-10grad);
     color: #DA9F5B;
@@ -93,7 +93,7 @@ main{
     align-items: center;
     justify-content: center;
 }
-main h1 {
+main h1, section h3 {
     font-family: 'Big Shoulders Display', sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
@@ -101,7 +101,10 @@ main h1 {
     margin: 20px 0;
     text-align: center;
 }
-
+section h3{
+    color: white;
+    font-size: 25px;
+}
 main p {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
@@ -128,7 +131,6 @@ main p {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
 #nuestro-servicio{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -268,12 +270,72 @@ grid-template-rows:minmax(1px, 100%);
 button{
     cursor: pointer;
 }
-@media(max-width: 500px){
+#div_menu{
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+    display: grid;
+    grid-template-columns: 12fr 1fr;
+}
+#div_menu button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: 20px;
+}
+#div_opciones_menu{
+    animation-name: fadeInDown;
+    animation-duration: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:center;
+    justify-content:center;
+}
+#div_opciones_menu button{
+    font-size: 18px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background-color: transparent;
+    text-align:left;
+    padding: 10px;
+    width: 80%;
+    border: none;
+}
+#div_opciones_menu button:hover{
+    transition: 0.5s ease all ;
+    color: #DA9F5B;
+}
+#nav_cel{
+    animation-name: fadeInDown;
+    animation-duration: 1s;
+    display: grid;
+    grid-template-rows: minmax(1px, 100%);
+    gap: 10px;
+    padding: 20px;
+    color: white;
+    background-color: saddlebrown;
+}
+@media(max-width: 1000px){
 #nuestro-servicio{
     grid-template-columns:minmax(1px, 100%);
 }
 #nuestro-servicio div{
     display: flex;
     flex-direction: column;
+}
+header{
+    height: 300px;
+}
+#contenedor-logo{
+    color: black;
+    height: 100%;
+    gap: 50px;
+    background-color: transparent;
+    font-size: 100%;
+}
+#contenedor-logo img{
+    width: 30%;
 }
 }
