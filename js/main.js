@@ -41,7 +41,10 @@ window.addEventListener("resize", function() {
 });
 function quitar_nav() {
     if (window.innerWidth <= 600) {
-        document.querySelector("nav").remove();
+        document.getElementById("nav_principal").style.display="none";
+        if(document.querySelectorAll("nav").length==1){
+
+        
         let nav = document.createElement("nav");
         nav.innerHTML = `<div id="div_menu"><h1>Yanci Ice</h1><button id="menu_hamburgesa">&#9776;</button></div>`;
         nav.id = "nav_cel";
@@ -54,7 +57,6 @@ function quitar_nav() {
                 opcionesMenu.innerHTML = `
                     <button style="color: #DA9F5B;">hogar</button>
                     <button>productos</button>
-                    <button>servicio</button>
                     <button>Nuestra historia</button>
                     <button>Contactanos</button>
                 `;
@@ -65,6 +67,14 @@ function quitar_nav() {
                 veces_todo_menu = 0;
             }
         });
+    }
+    }else{
+        document.getElementById("nav_principal").style.display="grid";
+        if(document.querySelectorAll("nav").length==2){
+            
+        document.getElementById("nav_cel").remove();
+        }
+        
     }
 }
 

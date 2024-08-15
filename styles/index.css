@@ -131,6 +131,27 @@ main p {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+#conoce_historia {
+    margin: 30px;
+    background-color: #DA9F5B;
+    color: white;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+#conoce_historia:hover {
+    background-color: white;
+    color: #DA9F5B;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 #nuestro-servicio{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -184,7 +205,7 @@ section{
     gap: 20px;
     justify-content: center;
     margin-top: 50px;
-    background-color: chocolate;
+    background-color: rgb(128, 63, 0);
     width: 100%;
 }
 #carrucel
@@ -224,11 +245,17 @@ grid-template-rows:minmax(1px, 100%);
     height: 100%;
    }
 #productos button {
-    background: transparent;
+    margin: 30px;
+    background-color: #DA9F5B;
     color: white;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
     font-size: 20px;
     border: none;
-    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
 }
 #botonida, #botonregreso{
     width: 30%;
@@ -317,7 +344,109 @@ button{
     color: white;
     background-color: saddlebrown;
 }
-@media(max-width: 1000px){
+#ver_mas_productos button{
+    background-color: transparent;
+    width: max-content;
+    border: none;
+    
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #33211D;
+}
+#ver_mas_productos {
+    position: relative;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em 2.5em;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: black;
+    background-color: white;
+   }
+   
+   #ver_mas_productos:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+   }
+   
+   #ver_mas_productos:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+   }
+   
+   #ver_mas_productos::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+   }
+   
+   #ver_mas_productos::after {
+    background-color: #fff;
+   }
+   
+   #ver_mas_productos:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+   }
+   footer {
+       background-color: #DA9F5B;
+       color: white;
+       padding: 20px;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-wrap: wrap;
+       margin-top: 50px;
+   }
+   
+   .footer-section {
+       max-width: 300px;
+       margin: 10px;
+   }
+   
+   .footer-section h3 {
+       font-family: 'Poppins', sans-serif;
+       font-weight: 600;
+       margin-bottom: 10px;
+       font-size: 1.5rem;
+   }
+   
+   .footer-section p {
+       font-family: 'Roboto', sans-serif;
+       margin-bottom: 8px;
+       font-size: 1.2rem;
+   }
+   
+   .social-icons a {
+       margin-right: 15px;
+       color: white;
+       font-size: 1.5rem;
+       transition: color 0.3s ease;
+   }
+   
+   .social-icons a:hover {
+       color: #4A4A4A;
+   }
+   
+   footer i {
+       margin-right: 8px;
+   }
+   
+   
+@media(max-width: 768px){
 #nuestro-servicio{
     grid-template-columns:minmax(1px, 100%);
 }
@@ -337,5 +466,18 @@ header{
 }
 #contenedor-logo img{
     width: 30%;
+}footer {
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-section {
+    max-width: 100%;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 }
