@@ -1,6 +1,6 @@
 [
   {
-    "imagen": "/productsAll/producto1.png",
+    "imagen": "products_all/producto1.png",
     "informacion": "1 Ingrediente\nQueso Philadelphia\nQueso Manchego\nQueso Oaxaca\nQueso Americano (Amarillo)"
     ,
     "precio":"MXN 50.00",
@@ -8,112 +8,112 @@
     "id":"1"
   },
   {
-    "imagen": "/productsAll/producto10.png",
+    "imagen": "products_all/producto10.png",
     "informacion": "Frutos Rojos:\n🍒 Cereza, 🫐 Zarzamora, 🍓 Fresa y 🍇 Grosella\n\nFrutos Tropicales:\n🍈 Guayaba, 🥭 Maracuyá y 🥭 Mango",
     "precio":"MXN 75.00",
     "nombre": "Soda Frutos Grande",
     "id":"10"
   },
   {
-    "imagen": "/productsAll/producto11.png",
+    "imagen": "products_all/producto11.png",
     "informacion": "Capuchino\nChocolate\nMoka\nCapuchino Rompope\nVainilla\nVainilla Latte\nChocolate Abuelita\nOreo\nFresa\nNuez\nPistache\nRompope\nCajeta\nPiña Colada\nCoco\nCereza 🍒\nZarzamora 🫐",
     "precio":"MXN 40.00",
     "nombre": "Frappé Chico",
     "id":"11"
   },
   {
-    "imagen": "/productsAll/producto12.png",
+    "imagen": "products_all/producto12.png",
     "informacion": "Capuchino\nChocolate\nMoka\nCapuchino Rompope\nVainilla\nVainilla Latte\nChocolate Abuelita\nOreo\nFresa\nNuez\nPistache\nRompope\nCajeta\nPiña Colada\nCoco\nCereza 🍒\nZarzamora 🫐",
     "precio":"MXN 50.00",
     "nombre": "Frappé Grande",
     "id":"12"
   },
   {
-    "imagen": "/productsAll/producto13.png",
+    "imagen": "products_all/producto13.png",
     "informacion": "Queso (Solo o combinado)\nNutella\nMazapán\nCarlos V\nPay de Limón 🍋",
     "precio":"MXN 50.00",
     "nombre": "Frappé Especial Chico",
     "id":"13"
   },
   {
-    "imagen": "/productsAll/producto14.png",
+    "imagen": "products_all/producto14.png",
     "informacion": "Queso (Solo o combinado)\nNutella\nMazapán\nCarlos V\nPay de Limón 🍋",
     "precio":"MXN 60.00",
     "nombre": "Frappé Especial Grande",
     "id":"14"
   },
   {
-    "imagen": "/productsAll/producto15.png",
+    "imagen": "products_all/producto15.png",
     "informacion":"Baileys\nTaro\nMatcha",
     "precio":"MXN 90.00",
     "nombre": "Frappé Vip ",
     "id":"15"
   },
   {
-    "imagen": "/productsAll/producto16.png",
+    "imagen": "products_all/producto16.png",
     "informacion": "Tamarindo\nMango 🥭\nGuayaba 🍈\nLimón 🍋\nFresa 🍓\nZarzamora 🫐\nCereza 🍒\nUva 🍇\nMaracuyá 🥭\nGuanábana\nGrosella 🍇",
     "precio":"MXN 50.00",
     "nombre": "Smoothie Grande",
     "id":"16"
   },
   {
-    "imagen": "/productsAll/producto17.png",
+    "imagen": "products_all/producto17.png",
     "informacion": "Tamarindo\nMango 🥭\nGuayaba 🍈\nLimón 🍋\nFresa 🍓\nZarzamora 🫐\nCereza 🍒\nUva 🍇\nMaracuyá 🥭\nGuanábana\nGrosella 🍇",
     "precio":"MXN 40.00",
     "nombre": "Smoothie chico",
     "id":"17"
   },
   {
-    "imagen": "/productsAll/producto2.png",
+    "imagen": "products_all/producto2.png",
    "informacion": "2 Ingredientes\n\nBase Salada:\nQueso Philadelphia\nQueso Manchego\nQueso Oaxaca\nQueso Americano (Amarillo)\n\nComplemento:\nJamón\nChampiñones\nPepperoni\n\nHawaiana $65 (Manchego, Jamón y piña)",
     "precio":"MXN 55.00",
     "nombre": "Crepa Salada",
     "id":"2"
   },
   {
-    "imagen": "/productsAll/producto3.png",
+    "imagen": "products_all/producto3.png",
      "informacion": "1 Ingrediente\n\nChocolate Hershey's\nNutella\nCajeta\nLechera\nQueso Philadelphia\nMermelada",
     "precio":"MXN 50.00",
     "nombre": "Crepas Dulces",
     "id":"3"
   },
   {
-    "imagen": "/productsAll/producto4.png",
+    "imagen": "products_all/producto4.png",
     "informacion": "2 Ingredientes\n\nBase:\nChocolate Hershey's\nNutella\nCajeta\nLechera\nQueso Philadelphia\nMermelada\n\nComplemento:\nFresa 🍓 natural\nPlátano 🍌\nDurazno 🍑\nPiña 🍍\nNuez\nMazapán\nOreo\n\nIngrediente Extra $10\n\nAgrega a tu Crepa\n\n* Helado (Fresa o Vainilla) $15\n* Crema batida $15\n* Chocolate Carlos V $15",
     "precio":"MXN 55.00",
     "nombre": "Crepas Dulces",
     "id":"4"
   },
   {
-    "imagen": "/productsAll/producto5.png",
+    "imagen": "products_all/producto5.png",
     "informacion": "Vainilla\nChocolate 🍫\nCookies\nFresa 🍓",
     "precio":"MXN 50.00",
     "nombre": "Malteada Chica",
     "id":"5"
   },
   {
-    "imagen": "/productsAll/producto6.png",
+    "imagen": "products_all/producto6.png",
     "informacion": "Vainilla\nChocolate 🍫\nCookies\nFresa 🍓",
     "precio":"MXN 70.00",
     "nombre": "Malteada Grande",
     "id":"6"
   },
   {
-    "imagen": "/productsAll/producto7.png",
+    "imagen": "products_all/producto7.png",
    "informacion": "Frutos Rojos:\n🍒 Cereza, 🫐 Zarzamora, 🍓 Fresa y 🍇 Grosella\n\nFrutos Tropicales:\n🍈 Guayaba, 🥭 Mango y 🍍 Piña",
     "precio":"MXN 55.00",
     "nombre": "Soda Frutos Chico",
     "id":"7"
   },
   {
-    "imagen": "/productsAll/producto8.png",
+    "imagen": "products_all/producto8.png",
     "informacion": "Cereza 🍒\nZarzamora 🫐\nMaracuyá 🥭\nGuanábana\nTamarindo\nMango 🥭\nGuayaba 🍈\nFresa 🍓\nGrosella 🍇\nLimón 🍋\nUva 🍇",
     "precio":"MXN 50.00",
     "nombre": "Soda Italiana Chica",
     "id":"8"
   },
   {
-    "imagen": "/productsAll/producto9.png",
+    "imagen": "products_all/producto9.png",
     "informacion": "Frutos Rojos:\n🍒 Cereza, 🫐 Zarzamora, 🍓 Fresa y 🍇 Grosella\n\nFrutos Tropicales:\n🍈 Guayaba, 🥭 Mango y 🍍 Piña",
     "precio":"MXN 70.00",
     "nombre": "Soda Italiana Grande",
