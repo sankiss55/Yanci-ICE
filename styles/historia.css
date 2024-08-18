@@ -22,7 +22,7 @@ p{
     width: 100%;
 }
 
-#historia{
+#nav_cel #historia{
     color: #DA9F5B;
 }
 #nav_cel a{
@@ -117,9 +117,6 @@ p{
         padding: 20px;
         color: white;
         background-color: saddlebrown;
-    }
-    #nav_cel #Contactanos{
-        color: #DA9F5B;
     }
     #div_menu{
         animation-name: fadeInDown;

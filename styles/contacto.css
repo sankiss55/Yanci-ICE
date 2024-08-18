@@ -229,6 +229,14 @@ p{
         justify-content: center;
         align-items: center;
       }
+      
+    main div a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
     main div button {
         position: relative;
         display: flex;
