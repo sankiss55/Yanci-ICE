@@ -13,7 +13,7 @@ for (const respuestas of respuesta.data) {
     a_ver_info.href=`pag_info_producto.html?id=${respuestas.id}`;
     a_ver_info.innerHTML="<button class=ver_info>ver información<button>";
     let a_ir_a_whats=document.createElement("a");
-    a_ir_a_whats.href=`https://wa.me/525561073357?text=Hola%20quiero%20información%20sobre%20los%20productos`;
+    a_ir_a_whats.href=`https://wa.me/525561073357?text=Hola quisiera pedir un ${respuestas.nombre}`;
     a_ir_a_whats.innerHTML= `<button class="button2">
     Ordena ahora
     <svg viewBox="0 0 48 48" y="0px" x="0px" xmlns="http://www.w3.org/2000/svg">

@@ -303,9 +303,16 @@ footer {
 footer i {
     margin-right: 8px;
 }
-a{
+#div_opciones_menu a{
+    width: 80%;
+   }
+   a{
     text-decoration: none;
+   }
+   #div_opciones_menu #productos {
+    color: #DA9F5B;
 }
+
 
 @media(max-width: 768px){
     

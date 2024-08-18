@@ -40,7 +40,7 @@ window.addEventListener("resize", function() {
     quitar_nav();
 });
 function quitar_nav() {
-    if (window.innerWidth <= 600) {
+    if (window.innerWidth <= 768) {
         document.getElementById("nav_principal").style.display="none";
         if(document.querySelectorAll("nav").length==1){
 
@@ -54,11 +54,18 @@ function quitar_nav() {
             if (veces_todo_menu == 0) {
                 let opcionesMenu = document.createElement("div");
                 opcionesMenu.id = "div_opciones_menu";
-                opcionesMenu.innerHTML = `
-                    <button style="color: #DA9F5B;">hogar</button>
-                    <button>productos</button>
-                    <button>Nuestra historia</button>
-                    <button>Contactanos</button>
+                opcionesMenu.innerHTML = `<a  href="index.html">
+                <button style="color: #DA9F5B;">hogar</button>
+            </a>
+            <a href="productos.html">
+                <button >productos</button>
+            </a>
+            <a href="historia.html">
+                <button>Nuestra historia</button>
+            </a>
+            <a href="contacto.html">
+                <button>Contáctanos</button>
+            </a>
                 `;
                 nav.appendChild(opcionesMenu);
                 veces_todo_menu = 1;
@@ -81,4 +88,4 @@ function quitar_nav() {
 setInterval(() => {
     cuantotrasform -= 100;
     dondeir();
-}, 3000);
+}, 4000);

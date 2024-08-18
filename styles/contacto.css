@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 223, 192);
+}
+main h2{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+p{
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "SOFT" 0, "WONK" 0;
+}
+#nav_cel {
+    width: 100%;
+}
+#nav_cel a{
+    width: 80%;
+   }
+   header::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(165, 165, 165,0.2);
+    }
+    header{
+      background-image: url('../images/ice-latte.jpg');
+      background-size: 100% 100%;
+        height: 100vh;
+        width: 100%;
+        color: white;
+        position: relative;
+    }
+    header img{
+        border-radius: 50%;
+    }
+    #contenedor-logo{
+        font-family: "Edu VIC WA NT Beginner", cursive;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 35px;
+        width: 100%;
+        margin-top: 7%;
+        margin-left: 50%;
+        transform: translate(-50%,-7%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        overflow: hidden;
+        justify-content: center;
+        height: 70vh;
+        position: relative;
+    }
+    
+    #contenedor-logo img{
+        width: 20%;
+        height: 40%;
+    }
+    #nav_principal{ 
+        color: rgb(196, 131, 87);
+        margin-top: 5%;
+        margin-left: 50%;
+        transform: translate(-50%, -5%);
+        display: grid;
+        grid-template-columns: 1fr 5fr ;
+        width: 90%;
+        font-size: 25px;
+    }
+    #nav_principal button, #nav_principal, #nav_cel{
+        font-family: "Fraunces", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings:
+          "SOFT" 0,
+          "WONK" 0;
+    }
+    #nav_principal div{
+        text-align: end;
+    }
+     #nav_principal button{
+        color: white;
+        border: none;
+        background-color: transparent;
+        padding: 5px;
+        transition: 0.5s ease all ;
+        font-size: 25px;
+    }
+     #nav_principal button:hover{
+        transition: 0.5s ease all ;
+        transform: rotate(-10grad);
+        color: #DA9F5B;
+    }
+    a{
+        text-decoration: none;
+    }
+    #nav_cel{
+        animation-name: fadeInDown;
+        animation-duration: 1s;
+        display: grid;
+        grid-template-rows: minmax(1px, 100%);
+        gap: 10px;
+        padding: 20px;
+        color: white;
+        background-color: saddlebrown;
+    }
+    #nav_cel #Contactanos{
+        color: #DA9F5B;
+    }
+    #div_menu{
+        animation-name: fadeInDown;
+        animation-duration: 2s;
+        display: grid;
+        grid-template-columns: 12fr 1fr;
+    }
+    #div_menu button{
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        font-size: 20px;
+    }
+    
+    #div_opciones_menu{
+        animation-name: fadeInDown;
+        animation-duration: 1s;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items:center;
+        justify-content:center;
+    }
+    #div_opciones_menu button{
+        font-size: 18px;
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        background-color: transparent;
+        text-align:left;
+        padding: 10px;
+        width: 80%;
+        border: none;
+    }
+    #div_opciones_menu button:hover{
+        transition: 0.5s ease all ;
+        color: #DA9F5B;
+    }
+    main{
+        padding: 20px;
+    margin-top: 20px;
+    gap: 20px;
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    }button svg {
+        fill: currentColor;
+    }
+    button:hover svg {
+        color: #ffffff; 
+    }
+    button:hover path {
+        fill: #ffffff; 
+    }
+    #div_tiktok{
+        grid-column: 2/3;
+    }
+    #div_whatsapp button{
+        border: 2px solid green;
+        color: black;
+        box-shadow: inset 0 0 0 0 white;
+    }
+    
+    #div_whatsapp button:hover {
+        color: white;
+        box-shadow: inset 0 -100px 0 0 green;
+      }
+      #div_facebook button{
+        border: 2px solid blue;
+        color: black;
+        box-shadow: inset 0 0 0 0 white;
+      }
+      #div_facebook  button:hover {
+        color: white;
+        box-shadow: inset 0 -100px 0 0 blue;
+      }
+      #div_instagram button{
+        border: 2px solid black;
+        color: black;
+        box-shadow: inset 0 0 0 0 white;
+      }
+      #div_instagram  button:hover {
+        color: white;
+        box-shadow: inset 0 -100px 0 0 pink;
+      }
+      #div_tiktok button{
+        border: 2px solid black;
+        color: black;
+        box-shadow: inset 0 0 0 0 white;
+      }
+      #div_tiktok  button:hover {
+        color: white;
+        box-shadow: inset 0 -100px 0 0 black;
+      }main div img{
+        border-radius: 10px;
+        width: 100%;
+        margin: 10px;
+      }
+      main div{
+        width: 90%;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    main div button {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 15px;
+        padding: 15px 30px;
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        background: transparent;
+        cursor: pointer;
+        transition: ease-out 0.5s;
+        background-color: rgba(225,225,225,0.7);
+        border-radius: 10px;
+        width: 80%;
+      }
+      
+      
+      main  button:active {
+        transform: scale(0.9);
+      }
+      #div_whatsapp{
+        background-color: #98FF98;
+      }
+      
+      #div_facebook{
+        background-color: #40E0D0;
+      }
+      
+      #div_facebook{
+        background-color: #40E0D0;
+      }
+      
+      #div_instagram{
+        background-color: #C39BD3;
+      }#div_tiktok{
+        background-color: #FF69B4;
+      }
+   footer {
+    width: 100%;
+    background-color: #DA9F5B;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.footer-section {
+    max-width: 300px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.footer-section p {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+}
+
+.social-icons a {
+    margin-right: 15px;
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #4A4A4A;
+}
+
+footer i {
+    margin-right: 8px;
+}
+button{
+    cursor: pointer;
+}
+
+@media(max-width: 768px){
+    main{
+        grid-template-columns: 1fr;
+        width: 75%;
+    }
+    main div{
+        width: 100%;
+    }
+    #div_tiktok{
+        grid-column: 1;
+    }
+    #nuestro-servicio{
+        grid-template-columns:minmax(1px, 100%);
+    }
+    #nuestro-servicio div{
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        height: 300px;
+    }
+    #contenedor-logo{
+        color: black;
+        height: 100%;
+        gap: 50px;
+        background-color: transparent;
+        font-size: 100%;
+    }
+    #contenedor-logo img{
+        width: 30%;
+    }
+    }

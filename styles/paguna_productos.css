@@ -21,6 +21,12 @@ main{
     gap: 20px;
     background-color: rgb(255, 180, 180);
 }
+main a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
 main img{
     width: 100%;
 
